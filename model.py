@@ -10,6 +10,7 @@ eval_interval = 300
 learning_rate = 1e-2
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
+n_embd = 32
 
 torch.manual_seed(1337)
 
@@ -36,14 +37,29 @@ def get_batch(split):
     y = torch.stack([data[i+1:i+block_size+1] for i in ix])
     return x,y
 
+def estimate_loss():
+    out = {}
+    m.eval()
+    for split in ['train','test']:
+        losses = torch.zeros(eval_iters)
+        for k in range(eval_iters):
+            xb,yb = get_batch(split)
+            logits,loss = m(xb,yb)
+            losses[k] = loss.item()
+        out[split] = losses.mean()
+    m.train()
+    return out
+
 class BigramLanguageModel(nn.Module):
   
-  def __init__(self, vocab_size):
+  def __init__(self):
     super().__init__()
-    self.token_embedding_table = nn.Embedding(vocab_size,vocab_size)
-
+    self.token_embedding_table = nn.Embedding(vocab_size,n_embd)
+    self.ln_head = nn.Linear(n_embd,vocab_size)
+  
   def forward(self, idx, targets=None):
-    logits = self.token_embedding_table(idx)
+    tok_emb = self.token_embedding_table(idx) #(B,T,C)
+    logits = self.ln_head(tok_emb) #(B,T,vocab_size)
     B,T,C = logits.shape
     logits = logits.view(B*T,C)
     
@@ -64,18 +80,22 @@ class BigramLanguageModel(nn.Module):
       idx = torch.cat((idx,idx_next),dim=1)
     return idx
 
-m = BigramLanguageModel(vocab_size)
+m = BigramLanguageModel()
 
 optimizer = torch.optim.AdamW(m.parameters(), lr=1e-3)
 
-for steps in range(1000):
+for iters in range(max_iters):
+  if iter % eval_interval == 0:
+      losses = estimate_loss()
+      print(f"step {iter}: train loss {losses['train']:.4f}, test loss {losses['test']:.4f}")  
+    
   xb,yb = get_batch('train')
 
   logits, loss = m(xb,yb)
   optimizer.zero_grad(set_to_none=True)
   loss.backward()
   optimizer.step()
-print(loss.item())
+
 
 idx = torch.zeros((1,1),dtype=torch.long)
 print(decode(m.generate(idx,max_new_tokens=100)[0].tolist()))

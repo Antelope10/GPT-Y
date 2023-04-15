@@ -84,7 +84,7 @@ m = BigramLanguageModel()
 
 optimizer = torch.optim.AdamW(m.parameters(), lr=1e-3)
 
-for iters in range(max_iters):
+for iter in range(max_iters):
   if iter % eval_interval == 0:
       losses = estimate_loss()
       print(f"step {iter}: train loss {losses['train']:.4f}, test loss {losses['test']:.4f}")  

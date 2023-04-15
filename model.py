@@ -76,4 +76,6 @@ for steps in range(1000):
   loss.backward()
   optimizer.step()
 print(loss.item())
+
+idx = torch.zeros((1,1),dtype=torch.long)
 print(decode(m.generate(idx,max_new_tokens=100)[0].tolist()))

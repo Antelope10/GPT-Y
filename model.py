@@ -113,7 +113,6 @@ class BigramLanguageModel(nn.Module):
   def generate(self,idx,max_new_tokens):
     for _ in range(max_new_tokens):
         idx = idx[:,-block_size:]#restricts tokens passed to block_size
-        print(idx.shape)
         logits, loss = self(idx)
         logits = logits[:,-1,:]
         probs = F.softmax(logits,dim=-1)
@@ -138,5 +137,5 @@ for iter in range(max_iters):
   optimizer.step()
 
 
-idx = torch.zeros((1,1),dtype=torch.long)
+idx = torch.zeros((1,8),dtype=torch.long)
 print(decode(m.generate(idx,max_new_tokens=100)[0].tolist()))

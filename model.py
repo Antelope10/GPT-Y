@@ -137,5 +137,5 @@ for iter in range(max_iters):
   optimizer.step()
 
 
-idx = torch.zeros((1,8),dtype=torch.long)
+idx = torch.randint(0,82,(1,8),dtype=torch.long)
 print(decode(m.generate(idx,max_new_tokens=100)[0].tolist()))

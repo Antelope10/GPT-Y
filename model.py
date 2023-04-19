@@ -4,13 +4,16 @@ from torch.nn import functional as F
 
 #hyperparameters
 batch_size = 32
-block_size = 8
-max_iters = 2000
-eval_interval = 300
-learning_rate = 1e-3
+block_size = 64
+max_iters = 3000
+eval_interval = 500
+learning_rate = 3e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
-n_embd = 32
+n_embd = 64
+dropout = 0.2
+n_heads = 4
+n_layer = 1
 #head_size = 16
 
 torch.manual_seed(1337)
@@ -30,6 +33,7 @@ train_data = data[:n]
 test_data = data[n:]
 
 print(data.shape)
+print(decode(encode(text[1000:1256])))
 
 def get_batch(split):
     data = train_data if split == 'train' else test_data
@@ -58,7 +62,7 @@ class Head(nn.Module):
         self.query = nn.Linear(n_embd, head_size)
         self.value = nn.Linear(n_embd, head_size, bias=False)
         self.register_buffer('tril', torch.tril(torch.ones(block_size,block_size)))
-        
+        self.dropout = nn.Dropout(dropout)
     def forward(self,x):
         B,T,C = x.shape
         k = self.key(x) #(B,T,head_size)
@@ -68,6 +72,7 @@ class Head(nn.Module):
         wei = q @ k.transpose(-2,-1) * C ** -0.5
         wei = wei.masked_fill(self.tril[:T,:T]==0, float('-inf')) #preents past communication
         wei = F.softmax(wei,dim=-1)
+        wei = self.dropout(wei)
         
         v = self.value(x)
         out = wei @ v
@@ -78,17 +83,21 @@ class MultiHeadAttention(nn.Module):
         super().__init__()
         self.heads = nn.ModuleList([Head(head_size) for _ in range(num_heads)])
         self.proj = nn.Linear(n_embd,n_embd)
+        self.dropout = nn.Dropout(dropout)
         
     def forward(self,x):
         out = torch.cat([h(x) for h in self.heads], dim=-1)
-        return self.proj(out)
+        out = self.dropout(self.proj(out))
+        return out
 
 class FeedForward(nn.Module):
     def __init__(self,n_embd):
         super().__init__()
-        self.net = nn.Sequential(nn.Linear(n_embd,4*n_embd),
+        self.net =  nn.Sequential(nn.Linear(n_embd,4*n_embd),
                     nn.ReLU(),
-                    nn.Linear(4*n_embd,n_embd)
+                    nn.Linear(4*n_embd,n_embd),
+                    nn.Dropout(dropout),
+                
         )
     def forward(self,x):
         return self.net(x)
@@ -98,24 +107,23 @@ class Block(nn.Module):
         super().__init__()
         self.heads = MultiHeadAttention(n_heads, n_embd // n_heads)
         self.ffwd = FeedForward(n_embd)
+        self.ln1 = nn.LayerNorm(n_embd)
+        self.ln2 = nn.LayerNorm(n_embd)
         
     def forward(self, x):
-        x = x + self.heads(x)
-        x = x + self.ffwd(x)
+        x = x + self.heads(self.ln1(x))
+        x = x + self.ffwd(self.ln2(x))
         return x
     
-class BigramLanguageModel(nn.Module):
+class Transformer(nn.Module):
   
   def __init__(self):
     super().__init__()
     self.token_embedding_table = nn.Embedding(vocab_size,n_embd)
     self.position_embedding_table = nn.Embedding(block_size, n_embd)
     self.ln_head = nn.Linear(n_embd,vocab_size)
-    self.blocks = nn.Sequential(
-        Block(n_embd,4),
-        Block(n_embd,4),
-        Block(n_embd,4),
-    )
+    self.blocks = nn.Sequential(*[Block(n_embd,n_heads) for _ in range(n_layer)])
+    self.ln_f = nn.LayerNorm(n_embd)
     self.ln_head = nn.Linear(n_embd,vocab_size)
   
   def forward(self, idx, targets=None):
@@ -125,6 +133,7 @@ class BigramLanguageModel(nn.Module):
     
     x = tok_emb + pos_emb
     x = self.blocks(x)
+    x = self.ln_f(x)
     logits = self.ln_head(x) #(B,T,vocab_size)
     B,T,C = logits.shape
     logits = logits.view(B*T,C) #(batch_size, context window, vocab_size)
@@ -147,9 +156,14 @@ class BigramLanguageModel(nn.Module):
         idx = torch.cat((idx,idx_next),dim=1)
     return idx
 
-m = BigramLanguageModel()
+m = Transformer()
+m = m.to(device)
+print(sum(p.numel() for p in m.parameters()), "parameters")
 
-optimizer = torch.optim.AdamW(m.parameters(), lr=1e-3)
+if input("load model: y/n") == "y":
+    m.load_state_dict(torch.load("checkpoint.pth")) #load params
+
+optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
 
 for iter in range(max_iters):
   if iter % eval_interval == 0:
@@ -164,5 +178,9 @@ for iter in range(max_iters):
   optimizer.step()
 
 
-idx = torch.randint(0,82,(1,8),dtype=torch.long)
+idx = torch.tensor(encode(text[1000:1256])).view(1,256)
 print(decode(m.generate(idx,max_new_tokens=1000)[0].tolist()))
+
+if input("save model: y/n") == 'y':
+    torch.save(m.state_dict(), "checkpoint.pth") 
+    print("saved to checkpoint.pth")

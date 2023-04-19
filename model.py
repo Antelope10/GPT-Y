@@ -20,6 +20,8 @@ torch.manual_seed(1337)
 
 with open('train.txt', 'r', encoding='utf-8') as f:
     text = f.read()
+with open('prompt.txt', 'r', encoding='utf-8') as f:
+    prompt = f.read()
     
 chars = sorted(list(set(text)))
 vocab_size = len(chars)
@@ -33,7 +35,6 @@ train_data = data[:n]
 test_data = data[n:]
 
 print(data.shape)
-print(decode(encode(text[1000:1256])))
 
 def get_batch(split):
     data = train_data if split == 'train' else test_data
@@ -158,10 +159,13 @@ class Transformer(nn.Module):
 
 m = Transformer()
 m = m.to(device)
+
 print(sum(p.numel() for p in m.parameters()), "parameters")
 
 if input("load model: y/n") == "y":
-    m.load_state_dict(torch.load("checkpoint.pth")) #load params
+    checkpoint_in = input("file path: ")
+    m.load_state_dict(torch.load(checkpoint_in)) #load params
+    print("loaded from " + checkpoint_in)
 
 optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
 
@@ -178,9 +182,10 @@ for iter in range(max_iters):
   optimizer.step()
 
 
-idx = torch.tensor(encode(text[1000:1256])).view(1,256)
+idx = torch.tensor(encode(prompt)).view(1,256)
 print(decode(m.generate(idx,max_new_tokens=1000)[0].tolist()))
 
 if input("save model: y/n") == 'y':
-    torch.save(m.state_dict(), "checkpoint.pth") 
-    print("saved to checkpoint.pth")
+    checkpoint_out = input("file path: ")
+    torch.save(m.state_dict(), checkpoint_out) 
+    print("saved to " + checkpoint_out)

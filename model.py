@@ -148,6 +148,9 @@ class Transformer(nn.Module):
     return logits, loss
 
   def generate(self,idx,max_new_tokens):
+    if list(idx.shape)[1] < block_size:
+        idx = torch.cat((torch.zeros(1,block_size-list(idx.shape)[1],dtype=torch.long), idx),dim=1)
+    idx = idx.to(device)
     for _ in range(max_new_tokens):
         idx = idx[:,-block_size:]#restricts tokens passed to block_size
         logits, loss = self(idx)

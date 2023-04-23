@@ -21,5 +21,5 @@ for filepath in glob(text_batch):
     with open(filepath, 'r', encoding='utf-8') as f:
          text = clean_text(f.read())
     train += text
-with open('test_train.txt', 'w', encoding = 'utf-8') as f:
+with open('train.txt', 'w', encoding = 'utf-8') as f:
     f.write(train)

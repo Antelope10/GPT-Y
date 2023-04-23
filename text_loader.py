@@ -11,10 +11,13 @@ def clean_text(text):
     # Remove tabs
     cleaned_text = re.sub(r'\t', ' ', cleaned_text)
     
+    clean_text = re.sub(r"[^a-zA-Z0-9.,!?'\-;:()\" \n\t\s]", "", text)
+    
     return cleaned_text.strip()
 
 train = ""
-for filepath in glob("texts/*.txt"):
+text_batch = 'texts/' + input("batch: ") + '/*.txt'
+for filepath in glob(text_batch):
     with open(filepath, 'r', encoding='utf-8') as f:
          text = clean_text(f.read())
     train += text

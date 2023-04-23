@@ -5,17 +5,17 @@ from torch.nn import functional as F
 import time
 
 #hyperparameters
-batch_size = 64
+batch_size = 16
 block_size = 128
-max_iters = 5000
+max_iters = 3000
 eval_interval = 500
 learning_rate = 3e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
-n_embd = 512
-dropout = 0.2
+n_embd = 256
+dropout = 0
 n_heads = 4
-n_layer = 4
+n_layer = 2
 divergence = 0.2
 
 torch.manual_seed(1337)
@@ -35,6 +35,7 @@ train_data = data[:n]
 test_data = data[n:]
 
 print(data.shape)
+print("vocab size", vocab_size)
 
 def get_batch(split):
     data = train_data if split == 'train' else test_data
@@ -168,7 +169,7 @@ m = m.to(device)
 print(sum(p.numel() for p in m.parameters()), "parameters") #print parameter count
 
 if input("load model: y/n") == "y": #load model
-    checkpoint_in = input("file path: ")
+    checkpoint_in = 'checkpoints/' + input("checkpoint: ") + '.pth'
     m.load_state_dict(torch.load(checkpoint_in)) #load params
     print("loaded from " + checkpoint_in)
 
@@ -193,7 +194,7 @@ print("time elapsed: ", end-start)
 
 # %%
 if input("save model: y/n") == 'y':
-    checkpoint_out = input("file path: ")
+    checkpoint_out = 'checkpoints/' + input("checkpoint: ") + '.pth'
     torch.save(m.state_dict(), checkpoint_out) 
     print("saved to " + checkpoint_out)
 

@@ -22,8 +22,6 @@ torch.manual_seed(1337)
 
 with open('train.txt', 'r', encoding='utf-8') as f:
     text = f.read()
-with open('prompt.txt', 'r', encoding='utf-8') as f:
-    prompt = f.read()
     
 chars = sorted(list(set(text)))
 vocab_size = len(chars)
@@ -200,6 +198,7 @@ if input("save model: y/n") == 'y':
     print("saved to " + checkpoint_out)
 
 # %%
+prompt = input("prompt: ")
 idx = torch.tensor(encode(prompt)).view(1,len(prompt))
 print(decode(m.generate(idx,max_new_tokens=1000)[0].tolist()))
 

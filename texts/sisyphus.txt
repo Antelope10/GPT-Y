@@ -1,38 +1,3 @@
-The Myth Of Sisyphus And Other
-Essays
-Albert Camus
-Translated from the French by Justin O’Brien
-1955
-
-Contents
-Preface
-The Myth Of Sisyphus
-An Absurd Reasoning
-Absurdity and Suicide
-Absurd Walk
-Philosophical Suicide
-Absurd Freedom
-The Absurd Man
-Don Juanism
-Drama
-Conquest
-Absurd Creation
-Philosophy and Fiction
-Kirilov
-Ephemeral Creation
-The Myth Of Sisyphus
-Appendix: Hope and the Absurd in the Work of Franz
-Kafka
-Summer In Algiers
-The Minotaur or The Stop In Oran
-The Street
-The Desert in Oran
-Sports
-Monuments
-Ariadne’s Stone
-Helen’s Exile
-Return To Tipasa
-The Artist And His Time
 
 Preface
 For me “The Myth of Sisyphus” marks the beginning of an idea
@@ -42,9 +7,8 @@ murder, in both cases without the aid of eternal values which,
 temporarily perhaps, are absent or distorted in contemporary
 Europe. The fundamental subject of “The Myth of Sisyphus” is
 this: it is legitimate and necessary to wonder whether life has a
-meaning; therefore it is legitimate to meet the problem of suicide
-
-face to face. The answer, underlying and appearing through the
+meaning; therefore it is legitimate to meet the problem of suicide 
+face to face. The answer, underlying and appearing through the
 paradoxes which cover it, is this: even if one does not believe in
 God, suicide is not legitimate. Written fifteen years ago, in 1940,
 amid the French and European disaster, this book declares that
@@ -74,6 +38,7 @@ for PASCAL PIA
 O my soul, do not aspire to immortal life, but exhaust the limits
 of the possible.
 —Pindar, Pythian iii
+
 The pages that follow deal with an absurd sensitivity that can
 be found widespread in the age—and not with an absurd
 philosophy which our time, properly speaking, has not known. It is
@@ -82,7 +47,7 @@ owe to certain contemporary thinkers. It is so far from my intention
 to hide this that they Will be found cited and commented upon
 throughout this work.
 
-But it is useful to note at the same time that the absurd, hitherto
+But it is useful to note at the same time that the absurd, hitherto
 taken as a conclusion, is considered in this essay as a startingpoint. In this sense it may be said that there is something
 provisional in my commentary: one cannot prejudge the position it
 entails. There will be found here merely the description, in the pure
@@ -120,7 +85,7 @@ conclude that the meaning of life is the most urgent of questions.
 How to answer it? On all essential problems (I mean thereby those
 that run the risk of leading to death or those that intensify the
 
-passion of living) there are probably but two methods of thought:
+passion of living) there are probably but two methods of thought:
 the method of La Palisse and the method of Don Quixote. Solely
 the balance between evidence and lyricism can allow us to achieve
 simultaneously emotion and lucidity. In a subject at once so
@@ -161,7 +126,7 @@ words. It is merely confessing that that “is not worth the trouble.”
 Living, naturally, is never easy. You continue making the gestures
 commanded by existence for many reasons, the first of which is
 
-habit. Dying voluntarily implies that you have recognized, even
+habit. Dying voluntarily implies that you have recognized, even
 instinc—
 tively, the ridiculous character of that habit, the absence of any
 profound reason for living, the insane character of that daily
@@ -203,7 +168,7 @@ of the meaning of life. These contradictions are constant. It may
 even be said that they have never been so keen as on this point
 where, on the contrary, logic seems so desirable. It is a
 
-commonplace to compare philosophical theories and the behavior
+commonplace to compare philosophical theories and the behavior
 of those who profess them. But it must be said that of the thinkers
 who refused a meaning to life none except Kirilov who belongs to
 literature, Peregrinos who is born of legend,[3] and Jules Lequier
@@ -245,7 +210,7 @@ be clarified, hunted down, and elucidated while brushing aside all
 the rest. Does the Absurd dictate death? This problem must be
 given priority over others, outside all methods of thought and all
 
-exercises of the disinterested mind. Shades of meaning,
+exercises of the disinterested mind. Shades of meaning,
 contradictions, the psychology that an “objective” mind can always
 introduce into all problems have no place in this pursuit and this
 passion. It calls simply for an unjust—in other words, logical—
@@ -286,7 +251,7 @@ nothing. Great feelings take with them their own universe, splendid
 or abject. They light up with their passion an exclusive world in
 which they recognize their climate. There is a universe of jealousy,
 
-of ambition, of selfishness, or of generosity. A universe in other
+of ambition, of selfishness, or of generosity. A universe in other
 words, a metaphysic and an attitude of mind. What is true of
 already specialized feelings will be even more so of emotions
 basically as indeterminate, simultaneously as vague and as
@@ -328,7 +293,7 @@ of the art of living, or of art itself. The climate of absurdity is in the
 beginning. The end is the absurd universe and that attitude of mind
 which lights the world with its true colors to bring out the
 
-privileged and implacable visage which that attitude has discerned
+privileged and implacable visage which that attitude has discerned
 in it.
 ***
 All great deeds and all great thoughts have a ridiculous
@@ -369,7 +334,7 @@ Such irrelevan-cies are wonderful, for, after all, it’s a matter of
 dying. Yet a day comes when a man notices or says that he is
 thirty. Thus he asserts his youth. But simultaneously he situates
 
-himself in relation to time. He takes his place in it. He admits that
+himself in relation to time. He takes his place in it. He admits that
 he stands at a certain point on a curve that he acknowledges having
 to travel to its end. He belongs to time, and by the horror that
 seizes him, he recognizes his worst enemy. Tomorrow, he was
@@ -410,7 +375,7 @@ pathos. Yet one will never be sufficiently surprised that everyone
 lives as if no one “knew.” This is because in reality there is no
 experience of death. Properly speaking, nothing has been
 
-experienced but what has been lived and made conscious. Here, it
+experienced but what has been lived and made conscious. Here, it
 is barely possible to speak of the experience of others’ deaths. It is
 a substitute, an illusion, and it never quite convinces us. That
 melancholy convention cannot be persuasive. The horror comes in
@@ -451,7 +416,7 @@ declare that solely the assertion opposed to ours is false or else that
 solely ours is not false, we are nevertheless forced to admit an
 infinite number of true or false judgments. For the one who
 
-expresses a true assertion proclaims simultaneously that it is true,
+expresses a true assertion proclaims simultaneously that it is true,
 and so on ad infinitum.”
 This vicious circle is but the first of a series in which the mind
 that studies itself gets lost in a giddy whirling. The very simplicity
@@ -493,7 +458,7 @@ grasp the divorce separating us from our own creations. So long as
 the mind keeps silent in the motionless world of its hopes,
 everything is reflected and arranged in the unity of its nostalgia.
 
-But with its first move this world cracks and tumbles: an infinite
+But with its first move this world cracks and tumbles: an infinite
 number of shimmering fragments is offered to the understanding.
 We must despair of ever reconstructing the familiar, calm surface
 which would give us peace of heart. After so many centuries of
@@ -535,7 +500,7 @@ electron. All this is good and I wait for you to continue. But you
 tell me of an invisible planetary system in which electrons
 gravitate around a nucleus. You explain this world to me with an
 
-image. I realize then that you have been reduced to poetry: I shall
+image. I realize then that you have been reduced to poetry: I shall
 never know. Have I the time to become indignant? You have
 already changed theories. So that science that was to teach me
 everything ends up in a hypothesis, that lucidity founders in
@@ -577,7 +542,7 @@ For the moment it is all that links them together. It binds them one
 to the other as only hatred can weld two creatures together. This is
 all I can discern clearly in this measureless universe where my
 
-adventure takes place. Let us pause here. If I hold to be true that
+adventure takes place. Let us pause here. If I hold to be true that
 absurdity that determines my relationship with life, if I become
 thoroughly imbued with that sentiment that seizes me in face of the
 world’s scenes, with that lucidity imposed on me by the pursuit of
@@ -618,7 +583,7 @@ exercised,” since Kierkegaard’s fatal illness, “that malady that
 leads to death with nothing else following it,” the significant and
 tormenting themes of absurd thought have followed one another.
 
-Or at least, and this proviso is of capital importance, the themes of
+Or at least, and this proviso is of capital importance, the themes of
 irrational and religious thought. From Jaspers to Heidegger, from
 Kierkegaard to Che-stov, from the phenomenologists to Scheler,
 on the logical plane and on the moral plane, a whole family of
@@ -660,7 +625,7 @@ own summons through the intermediary of consciousness.” It is the
 very voice of anguish and it adjures existence “to return from its
 loss in the anonymous They.” For him, too, one must not sleep, but
 
-must keep alert until the consummation. He stands in this absurd
+must keep alert until the consummation. He stands in this absurd
 world and points out its ephemeral character. He seeks his way
 amid these ruins.
 Jaspers despairs of any ontology because he claims that we
@@ -702,7 +667,7 @@ desperate joy of a man crucified and happy to be so, he builds up
 piece by piece—lucidity, refusal, make believe—a category of the
 man possessed. That face both tender and sneering, those
 
-pirouettes followed by a cry from the heart are the absurd spirit
+pirouettes followed by a cry from the heart are the absurd spirit
 itself grappling with a reality beyond its comprehension. And the
 spiritual adventure that leads Kierkegaard to his beloved scandals
 begins likewise in the chaos of an experience divested of its setting
@@ -744,7 +709,7 @@ All these experiences agree and confirm one another. The
 mind, when it reaches its limits, must make a judgment and choose
 its conclusions. This is where suicide and the reply stand. But I
 
-wish to reverse the order of the inquiry and start out from the
+wish to reverse the order of the inquiry and start out from the
 intelligent adventure and come back to daily acts. The experiences
 called to mind here were born in the desert that we must not leave
 behind. At least it is essential to know how far they went. At this
@@ -784,7 +749,7 @@ can, however, wonder how much is clear in that notion and by
 direct analysis try to discover its meaning on the one hand and, on
 the other, the consequences it involves.
 
-If I accuse an innocent man of a monstrous crime, if I tell a
+If I accuse an innocent man of a monstrous crime, if I tell a
 virtuous man that he has coveted his own sister, he will reply that
 this is absurd. His indignation has its comical aspect. But it also
 has its fundamental reason. The virtuous man illustrates by that
@@ -826,7 +791,7 @@ infinitely simple and infinitely complicated. Its first distinguishing
 feature in this regard is that it cannot be divided. To destroy one of
 its terms is to destroy the whole. There can be no absurd outside
 
-the human mind. Thus, like everything else, the absurd ends with
+the human mind. Thus, like everything else, the absurd ends with
 death. But there can be no absurd outside this world either. And it
 is by this elementary criterion that I judge the notion of the absurd
 to be essential and consider that it can stand as the first of my
@@ -867,7 +832,7 @@ universe limited to the human, they deify what crushes them and
 find reason to hope in what impoverishes them. That forced hope is
 religious in all of them. It deserves attention.
 
-I shall merely analyze here as examples a few themes dear to
+I shall merely analyze here as examples a few themes dear to
 Chestov and Kierkegaard. But Jaspers will provide us, in
 caricatural form, a typical example of this attitude. As a result the
 rest will be clearer. He is left powerless to realize the transcendent,
@@ -909,7 +874,7 @@ deserves interest:
 “The only true solution,” he said, “is precisely where human
 judgment sees no solution. Otherwise, what need would we have of
 
-God? We turn toward God only to obtain the impossible. As for
+God? We turn toward God only to obtain the impossible. As for
 the possible, men suffice.” If there is a Chestovian philosophy, I
 can say that it is altogether summed up in this way. For when, at
 the conclusion of his passionate analyses, Chestov discovers the
@@ -951,7 +916,7 @@ The absurd is no longer that evidence that man ascertains without
 consenting to it. The struggle is eluded. Man integrates the absurd
 and in that communion causes to disappear its essential character,
 
-which is opposition, laceration, and divorce. This leap is an escape.
+which is opposition, laceration, and divorce. This leap is an escape.
 Chestov, who is so fond of quoting Hamlet’s remark: “The time is
 out of joint,” writes it down with a sort of savage hope that seems
 to belong to him in particular. For it is not in this sense that Hamlet
@@ -993,7 +958,7 @@ struggle, does not absolutely scorn reason, and admits the
 irrational. Thus he again embraces in a single glance all the data of
 experience and he is little inclined to leap before knowing. He
 
-knows simply that in that alert awareness there is no further place
+knows simply that in that alert awareness there is no further place
 for hope.
 What is perceptible in Leo Chestov will be perhaps even more
 so in Kierkegaard. To be sure, it is hard to outline clear
@@ -1035,7 +1000,7 @@ Kierkegaard wants to be cured. To be cured is his frenzied wish,
 and it runs throughout his whole journal. The entire effort of his
 intelligence is to escape the antinomy of the human condition. An
 
-all the more desperate effort since he intermittently perceives its
+all the more desperate effort since he intermittently perceives its
 vanity when he speaks of himself, as if neither fear of God nor
 piety were capable of bringing him to peace. Thus it is that,
 through a strained subterfuge, he gives the irrational the
@@ -1076,7 +1041,7 @@ giving it up. Nothing more profound, for example, than
 Kierkegaard’s view according to which despair is not a fact but a
 state: the very state of sin. For sin is what alienates from God. The
 
-absurd, which is the metaphysical state of the conscious man, does
+absurd, which is the metaphysical state of the conscious man, does
 not lead to God.[7] Perhaps this notion will become clearer if I risk
 this shocking statement: the absurd is sin without God.
 It is a matter of living in that state of the absurd I know on
@@ -1117,7 +1082,7 @@ certain religious inspiration as from the rational order. They always
 lay claim to the eternal, and it is solely in this that they take the
 leap.
 
-It must be repeated that the reasoning developed in this essay
+It must be repeated that the reasoning developed in this essay
 leaves out altogether the most widespread spiritual attitude of our
 enlightened age: the one, based on the principle that all is reason,
 which aims to explain the world. It is natural to give a clear view
@@ -1159,7 +1124,7 @@ its only value is topographical.
 At first sight, it certainly seems that in this way nothing
 contradicts the absurd spirit. That apparent modesty of thought that
 
-limits itself to describing what it declines to explain, that
+limits itself to describing what it declines to explain, that
 intentional discipline whence results paradoxically a profound
 enrichment of experience and the rebirth of the world in its
 prolixity are absurd procedures. At least at first sight. For methods
@@ -1201,7 +1166,7 @@ collaborates with the more modest species of metropolitan man.
 For the absurd man, there was a truth as well as a bitterness in
 that purely psychological opinion that all aspects of the world are
 
-privileged. To say that everything is privileged is tantamount to
+privileged. To say that everything is privileged is tantamount to
 saying that everything is equivalent. But the metaphysical aspect of
 that truth is so far-reaching that through an elementary reaction he
 feels closer perhaps to Plato. He is taught, in fact, that every image
@@ -1243,7 +1208,7 @@ material, that the first are the object of logic and the second of
 science, this is merely a question of definition. The abstract, I am
 told, indicates but a part, without consistency in itself, of a
 
-concrete universal. But the wavering already noted allows me to
+concrete universal. But the wavering already noted allows me to
 throw light on the confusion of these terms. For that may mean that
 the concrete object of my attention, this sky, the reflection of that
 water on this coat, alone preserve the prestige of the real that my
@@ -1283,7 +1248,7 @@ reconcile it with the eternal climate, it has learned to turn away
 from the most cherished of its principles, which is contradiction, in
 order to integrate into it the strangest, the quite magic one of
 
-participation.[10] It is an instrument of thought and not thought
+participation.[10] It is an instrument of thought and not thought
 itself. Above all, a man’s thought is his nostalgia.
 Just as reason was able to soothe the melancholy of Plotinus, it
 provides modern anguish the means of calming itself in the
@@ -1325,7 +1290,7 @@ live with it or whether, on the other hand, logic commands one to
 die of it. I am not interested in philosophical suicide, but rather in
 plain suicide. I merely wish to purge it of its emotional content and
 
-know its logic and its integrity. Any other position implies for the
+know its logic and its integrity. Any other position implies for the
 absurd mind deceit and the mind’s retreat before what the mind
 itself has brought to light. Husserl claims to obey the desire to
 escape “the inveterate habit of living and thinking in certain wellknown and convenient conditions of existence,” but the final leap
@@ -1365,7 +1330,7 @@ upon familiarity. This ridiculous reason is what sets me in
 opposition to all creation. I cannot cross it out with a stroke of the
 pen. What I believe to be true I must therefore preserve. What
 
-seems to me so obvious, even against me, I must support. And
+seems to me so obvious, even against me, I must support. And
 what constitutes the basis of that conflict, of that break between the
 world and my mind, but the awareness of it? If therefore I want to
 preserve it, I can through a constant awareness, ever revived, ever
@@ -1406,7 +1371,7 @@ not certain. He is told that nothing is. But this at least is a certainty.
 And it is with this that he is concerned: he wants to find out if it is
 possible to live without appeal.
 
-Now I can broach the notion of suicide. It has already been felt
+Now I can broach the notion of suicide. It has already been felt
 what solution might be given. At this point the problem is
 reversed. It was previously a question of finding out whether or not
 life had to have a meaning to be lived. It now becomes clear, on
@@ -1448,7 +1413,7 @@ length of a life, it restores its majesty to that life. To a man devoid
 of blinders, there is no finer sight than that of the intelligence at
 grips with a reality that transcends it. The sight of human pride is
 
-unequaled. No disparagement is of any use. That discipline that the
+unequaled. No disparagement is of any use. That discipline that the
 mind imposes on itself, that will conjured up out of nothing, that
 face-to-face struggle have something exceptional about them. To
 impoverish that reality whose inhumanity constitutes man’s
@@ -1489,7 +1454,7 @@ responsible but God is not all powerful. All the scholastic
 subtleties have neither added anything to nor subtracted anything
 from the acuteness of this paradox.
 
-This is why I cannot act lost in the glorification or the mere
+This is why I cannot act lost in the glorification or the mere
 definition of a notion which eludes me and loses its meaning as
 soon as it goes beyond the frame of reference of my individual
 experience. I cannot understand what kind of freedom would be
@@ -1531,7 +1496,7 @@ engineer or the leader of a nation, or the post-office sub-clerk) that
 I am preparing to be. I think I can choose to be that rather than
 something else. I think so unconsciously, to be sure. But at the
 
-same time I strengthen my postulate with the beliefs of those
+same time I strengthen my postulate with the beliefs of those
 around me, with the presumptions of my human environment
 (others are so sure of being free, and that cheerful mood is so
 contagious!). However far one may remain from any presumption,
@@ -1573,7 +1538,7 @@ new independence has a definite time limit, like any freedom of
 action. It does not write a check on eternity. But it takes the place
 of the illusions of freedom, which all stopped with death. The
 
-divine availability of the condemned man before whom the prison
+divine availability of the condemned man before whom the prison
 doors open in a certain early dawn, that unbelievable
 disinterestedness with regard to everything except for the pure
 flame of life—it is clear that death and the absurd are here the
@@ -1614,7 +1579,7 @@ It calls for definition. It seems to begin with the fact that the notion
 of quantity has not been sufficiently explored. For it can account
 for a large share of human experience. A man’s rule of conduct
 
-and his scale of values have no meaning except through the
+and his scale of values have no meaning except through the
 quantity and variety of experiences he has been in a position to
 accumulate. Now, the conditions of modern life impose on the
 majority of men the same quantity of experiences and
@@ -1656,7 +1621,7 @@ living, and to the maximum. Where lucidity dominates, the scale of
 values becomes useless. Let’s be even more simple. Let us say that
 the sole obstacle, the sole deficiency to be made good, is
 
-constituted by premature death. Thus it is that no depth, no
+constituted by premature death. Thus it is that no depth, no
 emotion, no passion, and no sacrifice could render equal in the
 eyes of the absurd man (even if he wished it so) a conscious life of
 forty years and a lucidity spread over sixty years.[13] Madness and
@@ -1697,7 +1662,7 @@ man to judge himself occasionally. He is alone in being able to do
 so.
 “Prayer,” says Alain, “is when night descends over thought.”
 
-“But the mind must meet the night,” reply the mystics and the
+“But the mind must meet the night,” reply the mystics and the
 existentials. Yes, indeed, but not that night that is born under
 closed eyelids and through the mere will of man—dark,
 impenetrable night that the mind calls up in order to plunge into it.
@@ -1737,7 +1702,7 @@ relied on herself. That rashness was taught a lesson. Posterity is
 glad to quote her remark, but forgets to judge it. Mme Roland is
 indifferent to posterity.
 
-There can be no question of holding forth on ethics. I have seen
+There can be no question of holding forth on ethics. I have seen
 people behave badly with great morality and I note every day that
 integrity has no need of rules. There is but one moral code that the
 absurd man can accept, the one that is not separated from God: the
@@ -1778,7 +1743,7 @@ reasoning as, rather, illustrations and the breath of human lives.
 The few following images are of this type. They prolong the
 absurd reasoning by giving it a specific attitude and their warmth.
 
-Do I need to develop the idea that an example is not necessarily
+Do I need to develop the idea that an example is not necessarily
 an example to be followed (even less so, if possible, in the absurd
 world) and that these illustrations are not therefore models?
 Besides the fact that a certain vocation is required for this, one
@@ -1818,7 +1783,7 @@ recourse to the legend. That laugh, the conquering insolence, that
 playfulness and love of the theater are all clear and joyous. Every
 healthy creature tends to multiply himself. So it is with Don Juan.
 
-But, furthermore, melancholy people have two reasons for being
+But, furthermore, melancholy people have two reasons for being
 so: they don’t know or they hope. Don Juan knows and does not
 hope. He reminds one of those artists who know their limits, never
 go beyond them, and in that precarious interval in which they take
@@ -1859,7 +1824,7 @@ that debases what it admires) by Don Juan’s speeches and by that
 same remark that he uses on all women. But to anyone who seeks
 quantity in his joys, the only thing that matters is efficacy. What is
 
-the use of complicating the passwords that have stood the test? No
+the use of complicating the passwords that have stood the test? No
 one, neither the woman nor the man, listens to them, but rather to
 the voice that pronounces them. They are the rule, the convention,
 and the courtesy. After they are spoken the most important still
@@ -1900,7 +1865,7 @@ illusions of the eternal. As all the specialists in passion teach us,
 there is no eternal love but what is thwarted. There is scarcely any
 passion without struggle. Such a love culminates only in the
 
-ultimate contradiction of death. One must be Werther or nothing.
+ultimate contradiction of death. One must be Werther or nothing.
 There, too, there are several ways of committing suicide, one of
 which is the total gift and forget-fulness of self. Don Juan, as well
 as anyone else, knows that this can be stirring. But he is one of the
@@ -1941,7 +1906,7 @@ was in Athens a temple dedicated to old age. Children were taken
 there. As for Don Juan, the more people laugh at him, the more his
 figure stands out. Thereby he rejects the one the romantics lent
 
-him. No one wants to laugh at that tormented, pitiful Don Juan. He
+him. No one wants to laugh at that tormented, pitiful Don Juan. He
 is pitied; heaven itself will redeem him? But that’s not it. In the
 universe of which Don Juan has a glimpse, ridicule too is included.
 He would consider it normal to be chastised. That is the rule of the
@@ -1982,7 +1947,7 @@ the account of his life that has him eventually burying himself in a
 monastery. Not that the edifying aspect of the story can he
 considered probable. What refuge can he go ask of God? But this
 
-symbolizes rather the logical outcome of a life completely imbued
+symbolizes rather the logical outcome of a life completely imbued
 with the absurd, the grim ending of an existence turned toward
 short lived joys. At this point sensual pleasure winds up in
 asceticism. It is essential to realize that they may be, as it were, the
@@ -2022,7 +1987,7 @@ without misunderstanding what will follow.
 The actor’s realm is that of the fleeting. Of all kinds of fame, it
 is known, his is the most ephemeral. At least, this is said in
 
-conversation. But all kinds of fame are ephemeral. From the point
+conversation. But all kinds of fame are ephemeral. From the point
 of view of Sirius, Goethe’s works in ten thousand years will be
 dust and his name forgotten. Perhaps a handful of archaeologists
 will look for “evidence” as to our era. That idea has always
@@ -2063,7 +2028,7 @@ sustenance, it is indeed on that strange stage. To what degree the
 actor benefits from the characters is hard to say. But that is not the
 important thing. It is merely a matter of knowing how far he
 
-identifies himself with those irreplaceable lives. It often happens
+identifies himself with those irreplaceable lives. It often happens
 that he carries them with him, that they somewhat overflow the
 time and place in which they were born. They accompany the
 actor, who cannot very readily separate himself from what he has
@@ -2106,7 +2071,7 @@ Thus the actor creates his characters for display. He outlines or
 sculptures them and slips into their imaginary form, transfusing his
 blood into their phantoms. I am of course speaking of great drama,
 
-the kind that gives the actor an opportunity to fulfill his wholly
+the kind that gives the actor an opportunity to fulfill his wholly
 physical fate. Take Shakespeare, for instance. In that impulsive
 drama the physical passions lead the dance. They explain
 everything. Without them all would collapse. Never would King
@@ -2148,7 +2113,7 @@ preference for the present and that triumph of Proteus which are
 the negation of everything she teaches. Eternity is not a game. A
 mind foolish enough to prefer a comedy to eternity has lost its
 
-salvation. Between “everywhere” and “forever” there is no
+salvation. Between “everywhere” and “forever” there is no
 compromise. Whence that much maligned profession can give rise
 to a tremendous spiritual conflict. “What matters,” said Nietzsche,
 “is not eternal life but eternal vivacity.” All drama is, in fact, in
@@ -2190,7 +2155,7 @@ The greater number of different lives he has lived, the more aloof
 he can be from them. The time comes when he must die to the
 stage and for the world. What he has lived faces him. He sees
 
-clearly. He feels the harrowing and irreplaceable quality of that
+clearly. He feels the harrowing and irreplaceable quality of that
 adventure. He knows and can now die. There are homes for aged
 actors.
 Conquest
@@ -2231,7 +2196,7 @@ been progress since. The painters of today are deprived of such
 serenity. Even if they have basically the heart the creator needs—I
 mean the closed heart—it is of no use; for everyone, including the
 
-saint himself, is mobilized. This is perhaps what I have felt most
+saint himself, is mobilized. This is perhaps what I have felt most
 deeply. At every form that miscarries in the trenches, at every
 outline, metaphor, or prayer crushed under steel, the eternal loses a
 round. Conscious that I cannot stand aloof from my time, I have
@@ -2273,7 +2238,7 @@ have chosen this absurd and ineffectual effort. This is why I am on
 the side of the struggle. The epoch lends itself to this, as I have
 said. Hitherto the greatness of a conqueror was geographical. It
 
-was measured by the extent of the conquered territories. There is a
+was measured by the extent of the conquered territories. There is a
 reason why the word has changed in meaning and has ceased to
 signify the victorious general. The greatness has changed camp. It
 lies in protest and the blind-alley sacrifice. There, too, it is not
@@ -2315,7 +2280,7 @@ threatened fraternity, such strong and chaste friendship among
 men—these are the true riches because they are transitory. In their
 midst the mind is most aware of its powers and limitations. That is
 
-to say, its efficacity. Some have spoken of genius. But genius is
+to say, its efficacity. Some have spoken of genius. But genius is
 easy to say; I prefer the intelligence. It must be said that it can be
 magnificent then. It lights up this desert and dominates it. It knows
 its obligations and illustrates them. It will die at the same time as
@@ -2356,7 +2321,7 @@ compassion that seems acceptable to us: a feeling that perhaps you
 hardly understand and that seems to you scarcely virile. Yet the
 most daring among us are the ones who feel it. But we call the
 
-lucid ones virile and we do not want a strength that is apart from
+lucid ones virile and we do not want a strength that is apart from
 lucidity.”
 ***
 Let me repeat that these images do not propose moral codes
@@ -2397,7 +2362,7 @@ This absurd, godless world is, then, peopled with men who think
 clearly and have ceased to hope. And I have not yet spoken of the
 most absurd character, who is the creator.
 
-Absurd Creation
+Absurd Creation
 Philosophy and Fiction
 All those lives maintained in the rarefied air of the absurd
 could not persevere without some profound and constant thought
@@ -2438,7 +2403,7 @@ mime.
 Such men know to begin with, and then their whole effort is to
 examine, to enlarge, and to enrich the ephemeral island on which
 
-they have just landed. But first they must know. For the absurd
+they have just landed. But first they must know. For the absurd
 discovery coincides with a pause in which future passions are
 prepared and justified. Even men without a gospel have their
 Mount of Olives. And one must not fall asleep on theirs either. For
@@ -2480,7 +2445,7 @@ contradictions that are common to them. So it is with thought and
 creation. I hardly need to say that the same anguish urges man to
 these two attitudes. This is where they coincide in the beginning.
 
-But among all the thoughts that start from the absurd, I have seen
+But among all the thoughts that start from the absurd, I have seen
 that very few remain within it. And through their deviations or
 infidelities I have best been able to measure what belonged to the
 absurd. Similarly I must wonder: is an absurd work of art possible?
@@ -2521,7 +2486,7 @@ of adding to what is described a deeper meaning that it knows to be
 illegitimate. The work of art embodies a drama of the intelligence,
 but it proves this only indirectly. The absurd work requires an artist
 
-conscious of these limitations and an art in which the concrete
+conscious of these limitations and an art in which the concrete
 signifies nothing more than itself. It cannot be the end, the
 meaning, and the consolation of a life. Creating or not creating
 changes nothing. The absurd creator does not prize his work. He
@@ -2563,7 +2528,7 @@ an inhuman universe. There is no purer sensation. These examples
 are too easy. The absurd man recognizes as his own these
 harmonies and these forms.
 
-But I should like to speak here of a work in which the
+But I should like to speak here of a work in which the
 temptation to explain remains greatest, in which illusion offers
 itself automatically, in which conclusion is almost inevitable. I
 mean fictional creation. I propose to inquire whether or not the
@@ -2603,7 +2568,7 @@ Kafka, to cite but a few.
 But in fact the preference they have shown for writing in
 images rather than in reasoned arguments is revelatory of a certain
 
-thought that is common to them all, convinced of the uselessness
+thought that is common to them all, convinced of the uselessness
 of any principle of explanation and sure of the educative message
 of perceptible appearance. They consider the work of art both as an
 end and a beginning. It is the outcome of an often unexpressed
@@ -2644,7 +2609,7 @@ faithful to the absurd without sacrificing to the desire to judge? So
 many questions to be taken into consideration in a last effort. It
 must be already clear what they signify. They are the last scruples
 
-of an awareness that fears to forsake its initial and difficult lesson
+of an awareness that fears to forsake its initial and difficult lesson
 in favor of a final illusion. What holds for creation, looked upon as
 one of the possible attitudes for the man conscious of the absurd,
 holds for all the styles of life open to him. The conqueror or the
@@ -2685,7 +2650,7 @@ All of Dostoevsky’s heroes question themselves as to the
 meaning of life. In this they are modern: they do not fear ridicule.
 What distinguishes modern sensibility from classical sensibility is
 
-that the latter thrives on moral problems and the former on
+that the latter thrives on moral problems and the former on
 metaphysical problems. In Dostoevsky’s novels the question is
 propounded with such intensity that it can only invite extreme
 solutions. Existence is illusory or it is eternal. If Dostoevsky were
@@ -2727,7 +2692,7 @@ the fatal thought driving him is revealed to us. The engineer, in
 fact, goes back to the arguments of the Diary. He feels that God is
 necessary and that he must exist. But he knows that he does not
 
-and cannot exist. “Why do you not realize,” he exclaims, “that this
+and cannot exist. “Why do you not realize,” he exclaims, “that this
 is sufficient reason for killing oneself?” That attitude involves
 likewise for him some of the absurd consequences. Through
 indifference he accepts letting his suicide be used to the advantage
@@ -2769,7 +2734,7 @@ been useless. “The laws of nature,” says the engineer, “made
 Christ live in the midst of falsehood and die for a falsehood.”
 Solely in this sense Jesus indeed personifies the whole human
 
-drama. He is the complete man, being the one who realized the
+drama. He is the complete man, being the one who realized the
 most absurd condition. He is not the God-man but the man-god.
 And, like him, each of us can be crucified and victimized—and is
 to a certain degree.
@@ -2811,7 +2776,7 @@ theme. Let us merely note before going on that Kirilov reappears in
 other characters who themselves set in motion additional absurd
 themes. Stavrogin and Ivan Karamazov try out the absurd truths in
 
-practical life. They are the ones liberated by Kirilov’s death. They
+practical life. They are the ones liberated by Kirilov’s death. They
 try their skill at being tsars. Stavrogin leads an “ironic” life, and it
 is well known in what regard. He arouses hatred around him. And
 yet the key to the character is found in his farewell letter: “I have
@@ -2852,7 +2817,7 @@ rise from the dead, that we shall see one another again?” And
 Aliocha answers: “Certainly, we shall see one another again, we
 shall joyfully tell one another everything that has happened.’’
 
-Thus Kirilov, Stavrogin, and Ivan are defeated. The Brothers
+Thus Kirilov, Stavrogin, and Ivan are defeated. The Brothers
 Karamazov replies to The Possessed. And it is indeed a conclusion.
 Aliocha’s case is not ambiguous, as is that of Prince Muichkin. Ill,
 the latter lives in a perpetual present, tinged with smiles and
@@ -2894,7 +2859,7 @@ Christian character, but rather its announcing a future life. It is
 possible to be Christian and absurd. There are examples of
 Christians who do not believe in a future life. In regard to the work
 
-of art, it should therefore be possible to define one of the directions
+of art, it should therefore be possible to define one of the directions
 of the absurd analysis that could have been anticipated in the
 preceding pages. It leads to propounding “the absurdity of the
 Gospel.” It throws light upon this idea, fertile in repercussions, that
@@ -2934,7 +2899,7 @@ has no more importance than building for centuries—this is the
 difficult wisdom that absurd thought sanctions. Performing these
 two tasks simultaneously, negating on the one hand and
 
-magnifying on the other, is the way open to the absurd creator. He
+magnifying on the other, is the way open to the absurd creator. He
 must give the void its colors.
 This leads to a special conception of the work of art. Too often
 the work of a creator is looked upon as a series of isolated
@@ -2976,7 +2941,7 @@ that “for nothing,” in order to repeat and mark time. But perhaps
 the great work of art has less importance in itself than in the ordeal
 it demands of a man and the opportunity it provides him of
 
-overcoming his phantoms and approaching a little closer to his
+overcoming his phantoms and approaching a little closer to his
 naked reality.
 ***
 Let there be no mistake in aesthetics. It is not patient inquiry,
@@ -3017,7 +2982,7 @@ required diligence, the doggedness and lucidity thus resemble the
 conqueror’s attitude. To create is likewise to give a shape to one’s
 fate. For all these characters, their work defines them at least as
 
-much as it is defined by them. The actor taught us this: there is no
+much as it is defined by them. The actor taught us this: there is no
 frontier between being and appearing.
 Let me repeat. None of all this has any real meaning. On the
 way to that liberty, there is still a progress to be made. The final
@@ -3059,7 +3024,7 @@ benediction of water. He was punished for this in the underworld.
 Homer tells us also that Sisyphus had put Death in chains. Pluto
 could not endure the sight of his deserted, silent empire. He
 
-dispatched the god of war, who liberated Death from the hands of
+dispatched the god of war, who liberated Death from the hands of
 her conqueror.
 It is said also that Sisyphus, being near to death, rashly wanted
 to test his wife’s love. He ordered her to cast his unburied body
@@ -3100,7 +3065,7 @@ torment of which he will never know the end. That hour like a
 breathing-space which returns as surely as his suffering, that is the
 hour of consciousness. At each of those moments when he leaves
 
-the heights and gradually sinks toward the lairs of the gods, he is
+the heights and gradually sinks toward the lairs of the gods, he is
 superior to his fate. He is stronger than his rock.
 If this myth is tragic, that is because its hero is conscious.
 Where would his torture be, indeed, if at every step the hope of
@@ -3141,7 +3106,7 @@ that remark is sacred. It echoes in the wild and limited universe of
 man. It teaches that all is not, has not been, exhausted. It drives out
 of this world a god who had come into it with dissatisfaction and a
 
-preference for futile sufferings. It makes of fate a human matter,
+preference for futile sufferings. It makes of fate a human matter,
 which must be settled among men.
 All Sisyphus’ silent joy is contained therein. His fate belongs
 to him. His rock is his thing. Likewise, the absurd man, when he
@@ -3182,7 +3147,7 @@ precise its translation, an artist can restore to it only its movement:
 there is no word-for-word rendering. Moreover, nothing is harder
 to understand than a symbolic work. A symbol always transcends
 
-the one who makes use of it and makes him say in reality more
+the one who makes use of it and makes him say in reality more
 than he is aware of expressing. In this regard, the surest means of
 getting hold of it is not to provoke it, to begin the work without a
 preconceived attitude and not to look for its hidden currents. For
@@ -3223,7 +3188,7 @@ nonetheless does so without surprise. He will never show sufficient
 astonishment at this lack of astonishment. It is by such
 contradictions that the first signs of the absurd work are
 
-recognized. The mind projects into the concrete its spiritual
+recognized. The mind projects into the concrete its spiritual
 tragedy. And it can do so solely by means of a perpetual paradox
 which confers on colors the power to express the void and on daily
 gestures the strength to translate eternal ambitions.
@@ -3265,7 +3230,7 @@ will be immoderate. In this regard Greek tragedy is rich in lessons.
 In a tragic work fate always makes itself felt better in the guise of
 logic and naturalness. CEdipus’s fate is announced in advance. It is
 
-decided supernaturally that he will commit the murder and the
+decided supernaturally that he will commit the murder and the
 incest. The drama’s whole effort is to show the logical system
 which, from deduction to deduction, will crown the hero’s
 misfortune. Merely to announce to us that uncommon fate is
@@ -3307,7 +3272,7 @@ flesh-and-blood equation.
 Likewise, if Kafka wants to express the absurd, he will make
 use of consistency. You know the story of the crazy man who was
 
-fishing in a bathtub. A doctor with ideas as to psychiatric
+fishing in a bathtub. A doctor with ideas as to psychiatric
 treatments asked him “if they were biting,” to which he received
 the harsh reply: “Of course not, you fool, since this is a bathtub.”
 That story belongs to the baroque type. But in it can be grasped
@@ -3348,7 +3313,7 @@ of The Castle itself.
 Few works are more rigorous in their development than The
 Castle. K. is named Land Surveyor to the Castle and he arrives in
 
-the village. But from the village to the Castle it is impossible to
+the village. But from the village to the Castle it is impossible to
 communicate. For hundreds of pages K. persists in seeking his
 way, makes every advance, uses trickery and expedients, never
 gets angry, and with disconcerting good will tries to assume the
@@ -3390,7 +3355,7 @@ it the very heart of those closest to them. The fatal mistake that
 consists in giving to God what is not God’s is likewise the subject
 of this episode of The Castle. But for Kafka it seems that this is not
 
-a mistake. It is a doctrine and a “leap.” There is nothing that is not
+a mistake. It is a doctrine and a “leap.” There is nothing that is not
 God’s.
 Even more significant is the fact that the Land Surveyor breaks
 with Frieda in order to go toward the Barnabas sisters. For the
@@ -3431,7 +3396,7 @@ calls for review. There is hope and hope. To me the optimistic
 work of Henri Bordeaux seems peculiarly discouraging. This is
 because it has nothing for the discriminating. Malraux’s thought,
 
-on the other hand, is always bracing. But in these two cases neither
+on the other hand, is always bracing. But in these two cases neither
 the same hope nor the same despair is at issue. I see merely that the
 absurd work itself may lead to the infidelity I want to avoid. The
 work which was but an ineffectual repetition of a sterile condition,
@@ -3473,7 +3438,7 @@ metaphysic is a notion devoid of meaning.
 In any case, you see here in what tradition of thought Kafka’s
 work takes its place. It would indeed be intelligent to consider as
 
-inevitable the progression leading from The Trial to The Castle.
+inevitable the progression leading from The Trial to The Castle.
 Joseph K. and the Land Surveyor K. are merely two poles that
 attract Kafka.[31] I shall speak like him and say that his work is
 probably not absurd. But that should not deter us from seeing its
@@ -3515,7 +3480,7 @@ exceptional nobility the absurd work calls for, which is perhaps not
 found here. If the nature of art is to bind the general to the
 particular, ephemeral eternity of a drop of water to the play of its
 
-lights, it is even truer to judge the greatness of the absurd writer by
+lights, it is even truer to judge the greatness of the absurd writer by
 the distance he is able to introduce between these two worlds. His
 secret consists in being able to find the exact point where they
 meet in their greatest disproportion.
@@ -3555,7 +3520,7 @@ completely accessible to the eyes, and you know it the moment you
 enjoy it. Its pleasures are without remedy and its joys without
 hope. Above all, it requires clairvoyant souls—that is, without
 
-solace. It insists upon one’s performing an act of lucidity as one
+solace. It insists upon one’s performing an act of lucidity as one
 performs an act of faith. Strange country that gives the man it
 nourishes both his splendor and his misery! It is not surprising that
 the sensual riches granted to a sensitive man of these regions
@@ -3596,7 +3561,7 @@ sermons of the nudists, those Protestants of the flesh (there is a
 theory of the body quite as tiresome as that of the mind). But they
 are simply “comfortable in the sunlight.” The importance of this
 
-custom for our epoch can never be overestimated. For the first time
+custom for our epoch can never be overestimated. For the first time
 in two thousand years the body has appeared naked on beaches.
 For twenty centuries men have striven to give decency to Greek
 insolence and naivete, to diminish the flesh and complicate dress.
@@ -3638,7 +3603,7 @@ silence of noon on the Place du Gouvernement. In the shade of the
 trees surrounding it, Arabs sell for five sous glasses of iced
 lemonade flavored with orange-flowers. Their cry “Cool, cool” can
 
-be heard across the empty square. After their cry silence again falls
+be heard across the empty square. After their cry silence again falls
 under the burning sun: in the vendor’s jug the ice moves and I can
 hear its tinkle. There is the silence of the siesta. In the streets of the
 Marine, in front of the dirty barbershops it can be measured in the
@@ -3680,7 +3645,7 @@ turntable. Night comes rapidly after this, and with it the lights. But
 I am unable to relate the thrill and secrecy that subtle instant holds
 for me. I recall at least a magnificent tall girl who had danced all
 
-afternoon. She was wearing a jasmine garland on her tight blue
+afternoon. She was wearing a jasmine garland on her tight blue
 dress, wet with perspiration from the small of her back to her legs.
 She was laughing as she danced and throwing back her head. As
 she passed the tables, she left behind her a mingled scent of
@@ -3721,7 +3686,7 @@ principles. They have their code, and a very special one. You are
 not disrespectful to your mother. You see that your wife is
 respected in the street. You show consideration for a pregnant
 
-woman. You don’t double up on an adversary, because “that looks
+woman. You don’t double up on an adversary, because “that looks
 bad.” Whoever does not observe these elementary commandments
 “is not a man,” and the question is decided. This strikes me as fair
 and strong. There are still many of us who automatically observe
@@ -3762,7 +3727,7 @@ with the times, the classic warbler is sometimes replaced by an
 astounding pearl airplane piloted by a silly angel who, without
 regard for logic, is provided with an impressive pair of wings.
 
-Yet how to bring out that these images of death are never
+Yet how to bring out that these images of death are never
 separated from life? Here the values are closely linked. The
 favorite joke of Algerian undertakers, when driving an empty
 hearse, is to shout: “Want a ride, sister?” to any pretty girls they
@@ -3804,7 +3769,7 @@ of permanence that made the Dorians fashion their first column in
 wood. And yet, yes, one can find measure as well as excess in the
 violent and keen face of this race, in this summer sky with nothing
 
-tender in it, before which all truths can be uttered and on which no
+tender in it, before which all truths can be uttered and on which no
 deceptive divinity has traced the signs of hope or of redemption.
 Between this sky and these faces turned toward it, nothing on
 which to hang a mythology, a literature, an ethic, or a religion, but
@@ -3844,7 +3809,7 @@ their skill at enjoyment and at “indulging in experiences.” But this
 is illusory. It requires a rare vocation to be a sensualist. The life of
 a man is fulfilled without the aid of his mind, with its backward
 
-and forward movements, at one and the same time its solitude and
+and forward movements, at one and the same time its solitude and
 its presences. To see these men of Belcourt working, protecting
 their wives and children, and often without a reproach, I think one
 can feel a secret shame. To be sure, I have no illusions about it.
@@ -3883,7 +3848,7 @@ that beautiful city assure me, as a matter of fact, that all the
 imperfections have been (or will be) remedied. On the other hand,
 the beauties extolled in this essay have been jealously respected.
 
-Happy and realistic city, Oran has no further need of writers: she is
+Happy and realistic city, Oran has no further need of writers: she is
 awaiting tourists.
 (1953)
 There are no more deserts. There are no more islands. Yet there
@@ -3924,7 +3889,7 @@ found their reasons for growing and asserting themselves. They
 were alone and they weren’t alone. Centuries of history and
 beauty, the ardent testimony of a thousand lives of the past
 
-accompanied them along the Seine and spoke to them both of
+accompanied them along the Seine and spoke to them both of
 traditions and of conquests. But their youth urged them to invite
 such company. There comes a time, there come periods, when it is
 unwelcome. “It’s between us two!” exclaims Rasti-gnac, facing the
@@ -3965,7 +3930,7 @@ commercial and playful genie on our mantelpieces. But such
 perseverance in bad taste takes on a baroque aspect that makes one
 forgive all. Here, presented in a casket of dust, are the contents of a
 
-show window: frightful plaster models of deformed feet, a group
+show window: frightful plaster models of deformed feet, a group
 of Rembrandt drawings “sacrificed at 150 francs each,” practical
 jokes, tricolored wallets, an eighteenth-century pastel, a
 mechanical donkey made of plush, bottles of Provence water for
@@ -4006,7 +3971,7 @@ do so. And advertising is well aware of this. It will assume
 American proportions, having the same reasons, both here and
 there, for getting desperate.
 
-The streets of Oran inform us as to the two essential pleasures
+The streets of Oran inform us as to the two essential pleasures
 of the local youth: getting one’s shoes shined and displaying those
 same shoes on the boulevard. In order to have a clear idea of the
 first of these delights, one has to entrust one’s shoes, at ten o’clock
@@ -4047,7 +4012,7 @@ actresses. Consequently, the same wits call them “Marlenes.” Thus
 on the evening boulevards when the sound of birds rises skyward
 from the palm trees, dozens of Clarques and Marlenes meet, eye
 
-and size up one another, happy to be alive and to cut a figure,
+and size up one another, happy to be alive and to cut a figure,
 indulging for an hour in the intoxication of perfect existences.
 There can then be witnessed, the jealous say, the meetings of the
 American Commission. But in these words lies the bitterness of
@@ -4088,7 +4053,7 @@ Oran is a great circular yellow wall covered over with a leaden
 sky. In the beginning you wander in the labyrinth, seeking the sea
 like the sign of Ariadne. But you turn round and round in pale and
 
-oppressive streets, and eventually the Minotaur devours the people
+oppressive streets, and eventually the Minotaur devours the people
 of Oran: the Minotaur is boredom. For some time the citizens of
 Oran have given up wandering. They have accepted being eaten.
 It is impossible to know what stone is without coming to Oran.
@@ -4130,7 +4095,7 @@ There is something implacable about the desert. The mineral
 sky of Oran, her streets and trees in their coating of dust—
 everything contributes to creating this dense and impassible
 
-universe in which the heart and mind are never distracted from
+universe in which the heart and mind are never distracted from
 themselves, nor from their sole object, which is man. I am
 speaking here of difficult places of retreat. Books are written on
 Florence or Athens. Those cities have formed so many European
@@ -4171,7 +4136,7 @@ announced for nine o’clock has not even begun at nine thirty and
 no one has protested. The spring weather is warm and the smell of
 a humanity in shirt sleeves is exciting. Lively discussion goes on
 
-among the periodic explosions of lemon-soda corks and the tireless
+among the periodic explosions of lemon-soda corks and the tireless
 lament of the Corsican singer. A few late arrivals are wedged into
 the audience when a spotlight throws a blinding light onto the ring.
 The fights of the young hopefuls begin.
@@ -4213,7 +4178,7 @@ Oranese, backed by a thousand yelling voices, is defending against
 Perez a way of life and the pride of a province. Truth forces me to
 admit that Amar is not conducting his discussion well. His
 
-argument has a flaw: he lacks reach. The slugger from Algiers, on
+argument has a flaw: he lacks reach. The slugger from Algiers, on
 the contrary, has the required reach in his argument. It lands
 persuasively between his contradictor’s eyes. The Oranese bleeds
 magnificently amid the vociferations of a wild audience. Despite
@@ -4254,7 +4219,7 @@ The audience is divided into two camps, as is appropriate in the
 interest of fairness. But each individual’s choice obeys that
 indifference that follows on great expenditures of energy. If the
 
-Frenchman holds his own, if the Oranese forgets that one doesn’t
+Frenchman holds his own, if the Oranese forgets that one doesn’t
 lead with the head, the boxer is bent under a volley of hisses, but
 immediately pulled upright again by a burst of applause. Not until
 the seventh round does sport rise to the surface again, at the same
@@ -4296,7 +4261,7 @@ shadows disappearing into the night. For force and violence are
 solitary gods. They contribute nothing to memory. On the contrary,
 they distribute their miracles by the handful in the present. They
 
-are made for this race without past which celebrates its
+are made for this race without past which celebrates its
 communions around the prize ring. These are rather difficult rites
 but ones that simplify everything. Good and evil, winner and loser.
 At Corinth two temples stood side by side, the temple of Violence
@@ -4337,7 +4302,7 @@ ain. They have majesty and a stubby torso. It is said that at night
 they get down from their pedestal one after the other, silently pace
 around the dark square, and on occasion uninate at length under the
 
-big, dusty ficus trees. These, of course, are rumors to which the
+big, dusty ficus trees. These, of course, are rumors to which the
 people of Oran lend an indulgent ear. But it is unlikely.
 Despite a certain amount of research, I have not been able to
 get interested in Cain. I merely learned that he had the reputation
@@ -4378,7 +4343,7 @@ matter of transforming the most luminous of bays into a gigantic
 harbor. In reality it is one more chance for man to come to grips
 with stone.
 
-In the paintings of certain Flemish masters a theme of
+In the paintings of certain Flemish masters a theme of
 strikingly general application recurs insistently: the building of the
 Tower of Babel. Vast landscapes, rocks climbing up to heaven,
 steep slopes teeming with workmen, animals, ladders, strange
@@ -4420,7 +4385,7 @@ begin again. But today these heaps of rocks testify for the men in
 masks of dust and sweat who move about among them. The true
 monuments of Oran are still her stones.
 
-Ariadne’s Stone
+Ariadne’s Stone
 It seems that the people of Oran are like that friend of Flaubert
 who, on the point of death, casting a last glance at this
 irreplaceable earth, exclaimed: “Close the window; it’s too
@@ -4460,7 +4425,7 @@ with bodies as hard as buds. At eleven a.m., coming down from the
 plateau, all that young flesh, lightly clothed in motley materials,
 breaks on the sand like a multicolored wave.
 
-One has to go farther (strangely close, however, to that spot
+One has to go farther (strangely close, however, to that spot
 where two hundred thousand men are laboring) to discover a still
 virgin landscape: long, deserted dunes where the passage of men
 has left no other trace than a worm-eaten hut. From time to time an
@@ -4502,7 +4467,7 @@ invitation is sometimes heard. It seems that, for a time, the minds
 that yield to it are never disappointed. This is the darkness of
 Eurydice and the sleep of Isis. Here are the deserts where thought
 
-will collect itself, the cool hand of evening on a troubled heart. On
+will collect itself, the cool hand of evening on a troubled heart. On
 this Mount of Olives, vigil is futile; the mind recalls and approves
 the sleeping Apostles. Were they really wrong? They nonetheless
 had their revelation.
@@ -4544,7 +4509,7 @@ It is noon; the very day is being weighed in the balance. His
 rite accomplished, the traveler receives the reward of his liberation:
 the little stone, dry and smooth as an asphodel, that he picks up on
 
-the cliff. For the initiate the world is no heavier to bear than this
+the cliff. For the initiate the world is no heavier to bear than this
 stone. Atlas’s task is easy; it is sufficient to choose one’s hour.
 Then one realizes that for an hour, a month, a year, these shores
 can indulge in freedom. They welcome pell-mell, without even
@@ -4585,7 +4550,7 @@ always took refuge behind the conception of limits. It never carried
 anything to extremes, neither the sacred nor reason, because it
 negated nothing, neither the sacred nor reason. It took everything
 
-into consideration, balancing shadow with light. Our Europe, on
+into consideration, balancing shadow with light. Our Europe, on
 the other hand, off in the pursuit of totality, is the child of
 disproportion. She negates beauty, as she negates whatever she
 does not glorify. And, through all her diverse ways, she glorifies
@@ -4627,7 +4592,7 @@ have left for that higher equilibrium in which nature balanced
 history, beauty, virtue, and which applied the music of numbers
 even to blood-tragedy? We turn our backs on nature; we are
 
-ashamed of beauty. Our wretched tragedies have a smell of the
+ashamed of beauty. Our wretched tragedies have a smell of the
 office clinging to them, and the blood that trickles from them is the
 color of printer’s ink.
 This is why it is improper to proclaim today that we are the
@@ -4669,7 +4634,7 @@ since all struggles, without the brake of those same values, spread
 indefinitely, today’s Messianisms confront one another and their
 clamors mingle in the clash of empires. Disproportion is a
 
-conflagration, according to Heraclitus. The conflagration is
+conflagration, according to Heraclitus. The conflagration is
 spreading; Nietzsche is outdistanced. Europe no longer
 philosophizes by striking a hammer, but by shooting a cannon.
 Nature is still there, however. She contrasts her calm skies and
@@ -4711,7 +4676,7 @@ excess of its virtues as well as through the extent of its vices. We
 shall fight for the virtue that has a history. What virtue? The horses
 of Patroclus weep for their master killed in battle. All is lost. But
 
-Achilles resumes the fight, and victory is the outcome, because
+Achilles resumes the fight, and victory is the outcome, because
 friendship has just been assassinated: friendship is a virtue.
 Admission of ignorance, rejection of fanaticism, the limits of
 the world and of man, the beloved face, and finally beauty—this is
@@ -4750,7 +4715,7 @@ herself had been emptied of her laughter and offered me only bent
 and shining backs. In the evening, in the crudely lighted cafes
 where I took refuge, I read my age in faces I recognized without
 
-being able to name them. I merely knew that they had been young
+being able to name them. I merely knew that they had been young
 with me and that they were no longer so.
 Yet I persisted without very well knowing what I was waiting
 for, unless perhaps the moment to go back to Tipasa. To be sure, it
@@ -4791,7 +4756,7 @@ my only wealth, I had begun in plenty. Then had come the barbed
 wire—I mean tyrannies, war, police forces, the era of revolt. One
 had had to put oneself right with the authorities of night: the day’s
 
-beauty was but a memory. And in this muddy Tipasa the memory
+beauty was but a memory. And in this muddy Tipasa the memory
 itself was becoming dim. It was indeed a question of beauty,
 plenty, or youth! In the light from conflagrations the world had
 suddenly shown its wrinkles and its wounds, old and new. It had
@@ -4833,7 +4798,7 @@ thought definitive, amid the same vast melancholy smelling of rain
 and sea, despite this misty sky, these backs fleeing under the
 shower, these cafes whose sulphureous light distorted faces, I
 
-persisted in hoping. Didn’t I know, besides, that Algiers rains,
+persisted in hoping. Didn’t I know, besides, that Algiers rains,
 despite their appearance of never meaning to end, nonetheless stop
 in an instant, like those streams in my country which rise in two
 hours, lay waste acres of land, and suddenly dry up? One evening,
@@ -4875,7 +4840,7 @@ consider themselves favored to the full, I found exactly what I had
 come seeking, what, despite the era and the world, was offered me,
 truly to me alone, in that forsaken nature. From the forum strewn
 
-with olives could be seen the village down below. No sound came
+with olives could be seen the village down below. No sound came
 from it; wisps of smoke rose in the limpid air. The sea likewise
 was silent as if smothered under the unbroken shower of dazzling,
 cold light. From the Chenoua a distant cock’s crow alone
@@ -4917,7 +4882,7 @@ oneself a freshness, a cool wellspring of joy, love the day that
 escapes injustice, and return to combat having won that light. Here
 I recaptured the former beauty, a young sky, and I measured my
 
-luck, realizing at last that in the worst years of our madness the
+luck, realizing at last that in the worst years of our madness the
 memory of that sky had never left me. This was what in the end
 had kept me from despairing. I had always known that the ruins of
 Tipasa were younger than our new constructions or our bomb
@@ -4958,7 +4923,7 @@ silence! On the hill of Sainte-Salsa, to the east of Tipasa, the
 evening is inhabited. It is still light, to tell the truth, but in this light
 an almost invisible fading announces the day’s end. A wind rises,
 
-young like the night, and suddenly the waveless sea chooses a
+young like the night, and suddenly the waveless sea chooses a
 direction and flows like a great barren river from one end of the
 horizon to the other. The sky darkens. Then begins the mystery, the
 gods of night, the beyond-pleasure. But how to translate this? The
@@ -4999,7 +4964,7 @@ Personally I don’t ask for any role and I have but one real vocation.
 As a man, I have a preference for happiness; as an artist, it seems
 to me that I still have characters to bring to life without the help of
 
-wars or of law-courts. But I have been sought out, as each
+wars or of law-courts. But I have been sought out, as each
 individual has been sought out. Artists of the past could at least
 keep silent in the face of tyranny. The tyrannies of today are
 improved; they no longer admit of silence or neutrality. One has to
@@ -5039,7 +5004,7 @@ surprising if the rule we need were given us by this disordered
 society, or, on the other hand, by those doctrinaires who declare
 themselves liberated from all rules and all scruples.
 
-III. The Marxists and their followers likewise think they are
+III. The Marxists and their followers likewise think they are
 humanists. But for them human nature will be formed in the
 classless society of the future.
 To begin with, this proves that they reject at the present
@@ -5081,7 +5046,7 @@ thesis which, personally, I shall always reject. Allow me to set up
 against it the traditional point of view of what has been hitherto
 called the left: all executioners are of the same family.
 
-V. What can the artist do in the world of today?
+V. What can the artist do in the world of today?
 He is not asked either to write about co-operatives or,
 conversely, to lull to sleep in himself the sufferings endured by
 others throughout history. And since you have asked me to speak
@@ -5123,7 +5088,7 @@ measure the greatness of an artist (Moliere, Tolstoy, Melville) by
 the balance he managed to maintain between the two. Today, under
 the pressure of events, we are obliged to transport that tension into
 
-our lives likewise. This is why so many artists, bending under the
+our lives likewise. This is why so many artists, bending under the
 burden, take refuge in the ivory tower or, conversely, in the social
 church. But as for me, I see in both choices a like act of
 resignation. We must simultaneously serve suffering and beauty.
@@ -5146,4 +5111,3 @@ without forms and, consequently, would be nothing. Without
 culture, and the relative freedom it implies, society, even when
 perfect, is but a jungle. This is why any authentic creation is a gift
 to the future.
-(1953)

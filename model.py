@@ -1,20 +1,22 @@
+# %%
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
+import time
 
 #hyperparameters
-batch_size = 32
-block_size = 64
-max_iters = 3000
+batch_size = 64
+block_size = 128
+max_iters = 5000
 eval_interval = 500
 learning_rate = 3e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
-n_embd = 64
+n_embd = 512
 dropout = 0.2
 n_heads = 4
-n_layer = 1
-#head_size = 16
+n_layer = 4
+divergence = 0.2
 
 torch.manual_seed(1337)
 
@@ -45,6 +47,7 @@ def get_batch(split):
 
 def estimate_loss():
     out = {}
+    m.to(device)
     m.eval()
     for split in ['train','test']:
         losses = torch.zeros(eval_iters)
@@ -160,35 +163,44 @@ class Transformer(nn.Module):
         idx = torch.cat((idx,idx_next),dim=1)
     return idx
 
+# %%
 m = Transformer()
 m = m.to(device)
 
-print(sum(p.numel() for p in m.parameters()), "parameters")
+print(sum(p.numel() for p in m.parameters()), "parameters") #print parameter count
 
-if input("load model: y/n") == "y":
+if input("load model: y/n") == "y": #load model
     checkpoint_in = input("file path: ")
     m.load_state_dict(torch.load(checkpoint_in)) #load params
     print("loaded from " + checkpoint_in)
 
 optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
 
+# %%
+start = time.time()
 for iter in range(max_iters):
   if iter % eval_interval == 0:
       losses = estimate_loss()
       print(f"step {iter}: train loss {losses['train']:.4f}, test loss {losses['test']:.4f}")  
-    
+      if abs(losses['train'] - losses['test']) > divergence * losses['test']:
+        print("aborted training due to overfitting")
+        break
   xb,yb = get_batch('train')
-
   logits, loss = m(xb,yb)
   optimizer.zero_grad(set_to_none=True)
   loss.backward()
   optimizer.step()
+end = time.time()
+print("time elapsed: ", end-start)
 
-
-idx = torch.tensor(encode(prompt)).view(1,256)
-print(decode(m.generate(idx,max_new_tokens=1000)[0].tolist()))
-
+# %%
 if input("save model: y/n") == 'y':
     checkpoint_out = input("file path: ")
     torch.save(m.state_dict(), checkpoint_out) 
     print("saved to " + checkpoint_out)
+
+# %%
+idx = torch.tensor(encode(prompt)).view(1,len(prompt))
+print(decode(m.generate(idx,max_new_tokens=1000)[0].tolist()))
+
+

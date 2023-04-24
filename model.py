@@ -6,14 +6,14 @@ import time
 
 #hyperparameters
 batch_size = 16
-block_size = 128
-max_iters = 3000
+block_size = 64
+max_iters = 1001
 eval_interval = 500
 learning_rate = 3e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
 n_embd = 256
-dropout = 0
+dropout = 1
 n_heads = 4
 n_layer = 2
 divergence = 0.2

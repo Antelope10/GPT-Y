@@ -11,7 +11,7 @@ def clean_text(text):
     # Remove tabs
     cleaned_text = re.sub(r'\t', ' ', cleaned_text)
     
-    cleaned_text = re.sub(r"[^a-zA-Z0-9.,!?'\-;:()\" \n\t\s]", "", text)
+    cleaned_text = re.sub(r"[^a-zA-Z0-9.,!?'\-;:()\n\t\s]", "", cleaned_text)
     
     return cleaned_text.strip()
 

@@ -9,6 +9,8 @@ def clean_text(text):
     cleaned_text = re.sub(r'\s\s+', ' ', cleaned_text)
     # Remove tabs
     cleaned_text = re.sub(r'\t', ' ', cleaned_text)
+    
+
     return cleaned_text.strip()
 
 train = ""

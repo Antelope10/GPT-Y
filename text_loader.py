@@ -16,6 +16,7 @@ def clean_text(text):
 train = ""
 if input("openwebtext: y/n") == "y":
     dataset = load_dataset("openwebtext")
+    dataset = dataset['train']
     count = 0
     limit = int(input("limit: "))
     for element in dataset:

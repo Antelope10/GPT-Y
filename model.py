@@ -199,8 +199,11 @@ if input("save model: y/n") == 'y':
     print("saved to " + checkpoint_out)
 
 # %%
-prompt = input("prompt: ")
-idx = torch.tensor(encode(prompt)).view(1,len(prompt))
-print(decode(m.generate(idx,max_new_tokens=1000)[0].tolist()))
+def complete(prompt, max_tokens):
+    idx = torch.tensor(encode(prompt)).view(1,len(prompt))
+    return prompt + decode(m.generate(idx,max_new_tokens=max_tokens)[0].tolist())
+
+prompt = input("prompt")
+print(complete(prompt,100))
 
 

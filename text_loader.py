@@ -15,18 +15,14 @@ def clean_text(text):
 
 train = ""
 if input("openwebtext: y/n") == "y":
+    
     dataset = load_dataset("openwebtext")
-    dataset = dataset['train']
-    count = 0
-    limit = int(input("limit: "))
-    for element in dataset:
-        train += element
-        if count >= limit:
-            break
-        count += 1
-        
+    train = dataset['train']
+    limit = int(input("# of examples: "))
     with open('train.txt', 'w', encoding='utf-8') as f:
-        f.write(train)
+        for i in range(limit):
+            f.write(train[i]['text'])
+            f.write("\n")
             
     
 else:

@@ -15,7 +15,7 @@ eval_iters = 200
 n_embd = 256
 dropout = 0.2
 n_heads = 4
-n_layer = 2
+n_layer = 4
 divergence = 0.2
 
 torch.manual_seed(1337)

@@ -5,14 +5,14 @@ from torch.nn import functional as F
 import time
 
 #hyperparameters
-batch_size = 16
+batch_size = 64
 block_size = 64
-max_iters = 2001
+max_iters = 5000
 eval_interval = 500
 learning_rate = 3e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
-n_embd = 256
+n_embd = 512
 dropout = 0.2
 n_heads = 4
 n_layer = 4
@@ -170,7 +170,7 @@ print(sum(p.numel() for p in m.parameters()), "parameters") #print parameter cou
 
 if input("load model: y/n") == "y": #load model
     checkpoint_in = 'checkpoints/' + input("checkpoint: ") + '.pth'
-    m.load_state_dict(torch.load(checkpoint_in)) #load params
+    m.load_state_dict(torch.load(checkpoint_in,map_location=torch.device('cpu'))) #load params
     print("loaded from " + checkpoint_in)
 
 optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)

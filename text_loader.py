@@ -17,7 +17,7 @@ def clean_text(text):
 
 train = ""
 select = input("dataset: ")
-batch = "texts/" + input("batch: ") + ".txt"
+batch = input("batch: ") + ".txt"
 if select == "openwebtext":
     dataset = load_dataset("stas/openwebtext-10k")
     train = dataset['train']
@@ -34,7 +34,7 @@ elif select == "wikitext":
             f.write(train[i]['text'])
             f.write("\n")
 elif select == "articles":
-    dataset = load_dataset("cnn_dailymail")
+    dataset = load_dataset("cnn_dailymail", '3.0.0')
     train = dataset['train']
     limit = int(input("# of examples"))
     with open(batch, 'w', encoding='utf-8') as f:

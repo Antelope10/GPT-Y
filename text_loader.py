@@ -16,8 +16,8 @@ def clean_text(text):
     return cleaned_text.strip()
 
 train = ""
-if input("openwebtext: y/n") == "y":
-    
+select = input("dataset: ")
+if select == "openwebtext":
     dataset = load_dataset("openwebtext")
     train = dataset['train']
     limit = int(input("# of examples: "))
@@ -25,8 +25,22 @@ if input("openwebtext: y/n") == "y":
         for i in range(limit):
             f.write(train[i]['text'])
             f.write("\n")
-            
-    
+elif select == "wikitext":
+    dataset = load_dataset("wikitext")
+    train = dataset['train']
+    limit = int(input("# of examples"))
+    with open('train.txt', 'w', encoding='utf-8') as f:
+        for i in range(limit):
+            f.write(train[i]['text'])
+            f.write("\n")
+elif select == "articles":
+    dataset = load_dataset("cnn_dailymail")
+    train = dataset['train']
+    limit = int(input("# of examples"))
+    with open('train.txt', 'w', encoding='utf-8') as f:
+        for i in range(limit):
+            f.write(train[i]['article'])
+            f.write("\n")
 else:
     text_batch = 'texts/' + input("batch: ") + '/*.txt'
     for filepath in glob(text_batch):

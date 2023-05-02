@@ -36,10 +36,9 @@ elif select == "wikitext":
 elif select == "articles":
     dataset = load_dataset("cnn_dailymail", '3.0.0')
     train = dataset['train']
-    limit = int(input("# of examples"))
     with open(batch, 'w', encoding='utf-8') as f:
-        for i in range(limit):
-            f.write(train[i]['article'])
+        for element in train:
+            f.write(element['article'])
             f.write("\n")
 elif select == "hate":
     dataset = load_dataset("hate_speech18")

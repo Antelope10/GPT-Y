@@ -3,6 +3,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 import time
+#import matplotlib.pyplot as plt
 
 #hyperparameters
 batch_size = 64
@@ -177,20 +178,38 @@ optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
 
 # %%
 start = time.time()
+train_losses = []
+test_losses = []
+iterations = []
 for iter in range(max_iters):
-  if iter % eval_interval == 0:
-      losses = estimate_loss()
-      print(f"step {iter}: train loss {losses['train']:.4f}, test loss {losses['test']:.4f}")  
-      if abs(losses['train'] - losses['test']) > divergence * losses['test']:
-        print("aborted training due to overfitting")
-        break
-  xb,yb = get_batch('train')
-  logits, loss = m(xb,yb)
-  optimizer.zero_grad(set_to_none=True)
-  loss.backward()
-  optimizer.step()
+    if iter % eval_interval == 0:
+        end = time.time()
+        losses = estimate_loss()
+        print(f"step {iter}: train loss {losses['train']:.4f}, test loss {losses['test']:.4f}, time elapsed {end-start:.4f}")
+        train_losses.append(losses['train'])
+        test_losses.append(losses['test'])
+        iterations.append(iter)
+        start = time.time()
+        if abs(losses['train'] - losses['test']) > divergence * losses['test']:
+            print("aborted training due to overfitting")
+            break
+    xb,yb = get_batch('train')
+    logits, loss = m(xb,yb)
+    optimizer.zero_grad(set_to_none=True)
+    loss.backward()
+    optimizer.step()
 end = time.time()
 print("time elapsed: ", end-start)
+
+# Plotting the line graph
+#plt.plot(iterations, train_losses, label='Train Loss')
+#plt.plot(iterations, test_losses, label='Test Loss')
+#plt.xlabel('Iterations')
+#plt.ylabel('Loss')
+#plt.title('Loss over Iterations')
+#plt.legend()
+#plt.show()
+#print("time elapsed: ", end-start)
 
 # %%
 if input("save model: y/n") == 'y':

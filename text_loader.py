@@ -17,18 +17,19 @@ def clean_text(text):
 
 train = ""
 select = input("dataset: ")
+batch = "texts/" + input("batch: ") + ".txt"
 if select == "openwebtext":
     dataset = load_dataset("stas/openwebtext-10k")
     train = dataset['train']
-    with open('train.txt', 'w', encoding='utf-8') as f:
-        for element in dataset:
+    with open(batch, 'w', encoding='utf-8') as f:
+        for element in train:
             f.write(element['text'])
             f.write("\n")
 elif select == "wikitext":
     dataset = load_dataset("wikitext")
     train = dataset['train']
     limit = int(input("# of examples"))
-    with open('train.txt', 'w', encoding='utf-8') as f:
+    with open(batch, 'w', encoding='utf-8') as f:
         for i in range(limit):
             f.write(train[i]['text'])
             f.write("\n")
@@ -36,12 +37,20 @@ elif select == "articles":
     dataset = load_dataset("cnn_dailymail")
     train = dataset['train']
     limit = int(input("# of examples"))
-    with open('train.txt', 'w', encoding='utf-8') as f:
+    with open(batch, 'w', encoding='utf-8') as f:
         for i in range(limit):
             f.write(train[i]['article'])
             f.write("\n")
+elif select == "hate":
+    dataset = load_dataset("hate_speech18")
+    train = dataset['train']
+    with open(batch, 'w', encoding='utf-8') as f:
+        for element in train:
+            if element["label"] == 1:
+                f.write(element["text"])
+                f.write("\n")
 else:
-    text_batch = 'texts/' + input("batch: ") + '/*.txt'
+    text_batch = batch
     for filepath in glob(text_batch):
         with open(filepath, 'r', encoding='utf-8') as f:
             text = clean_text(f.read())

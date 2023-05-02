@@ -18,12 +18,11 @@ def clean_text(text):
 train = ""
 select = input("dataset: ")
 if select == "openwebtext":
-    dataset = load_dataset("openwebtext")
+    dataset = load_dataset("stas/openwebtext-10k")
     train = dataset['train']
-    limit = int(input("# of examples: "))
     with open('train.txt', 'w', encoding='utf-8') as f:
-        for i in range(limit):
-            f.write(train[i]['text'])
+        for element in dataset:
+            f.write(element['text'])
             f.write("\n")
 elif select == "wikitext":
     dataset = load_dataset("wikitext")

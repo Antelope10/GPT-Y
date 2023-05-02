@@ -10,6 +10,8 @@ def clean_text(text):
     # Remove tabs
     cleaned_text = re.sub(r'\t', ' ', cleaned_text)
     
+    cleaned_text = re.sub(r'\n', ' ', cleaned_text)
+    
 
     return cleaned_text.strip()
 

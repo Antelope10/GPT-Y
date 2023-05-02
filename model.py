@@ -203,6 +203,7 @@ def complete(prompt, max_tokens):
     idx = torch.tensor(encode(prompt)).view(1,len(prompt))
     return prompt + decode(m.generate(idx,max_new_tokens=max_tokens)[0].tolist())
 
+dropout = 0
 prompt = input("prompt")
 while prompt != "exit":
     print(complete(prompt,500))

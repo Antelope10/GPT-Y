@@ -8,13 +8,13 @@ import time
 #hyperparameters
 batch_size = 16
 block_size = 32
-max_iters = 000
+max_iters = 1000
 eval_interval = 500
-learning_rate = 1e-3
+learning_rate = 3e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
 n_embd = 512
-dropout = 0.2
+dropout = .1
 n_heads = 4
 n_layer = 4
 divergence = 0.2
@@ -226,6 +226,6 @@ dropout = 0
 prompt = input("prompt: ")
 while prompt != "exit":
     print(complete(prompt,500))
-    prompt = input("prompt")
+    prompt = input("prompt: ")
 
 

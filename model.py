@@ -8,7 +8,7 @@ import time
 #hyperparameters
 batch_size = 16
 block_size = 32
-max_iters = 5000
+max_iters = 000
 eval_interval = 500
 learning_rate = 1e-3
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -223,7 +223,7 @@ def complete(prompt, max_tokens):
     return prompt + decode(m.generate(idx,max_new_tokens=max_tokens)[0].tolist())
 
 dropout = 0
-prompt = input("prompt")
+prompt = input("prompt: ")
 while prompt != "exit":
     print(complete(prompt,500))
     prompt = input("prompt")
